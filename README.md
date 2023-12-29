@@ -1,2 +1,2 @@
-# desafio Pokedex
+## Desafio Pokedex utilizando HTML, CSS e Javascript
  
