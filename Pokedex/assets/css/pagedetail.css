@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+.cardList{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    border: 1px solid #19af14;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    margin: 10rem 30rem;
+    list-style: none;
+    
+}
+
+
+.cardList .arrow{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    margin-left: 10px;
+   
+}
+
+
+
+.arrow p{
+    padding: 0;
+    margin-left: -1rem;
+    margin-top: 2rem;
+
+    color:#219ebc
+    
+}
+.estatistics .baseStates{
+   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content:left;
+    align-items:start;
+    margin-top: 60px;
+    margin-left: -70px;
+    padding: 0px;
+    
+    
+    
+}
+
+
+.base{
+    list-style: none;
+    margin:10px;
+    padding: 10px;
+}
+.estatistics{
+   
+    
+    
+    
+}
+
+
+li{
+    color:#19af14;
+}
+
+
+
+
+@media screen  and (min-width:992px){
+    
+}
+
+
+@media screen  and (min-width:380px){
+    
+    
+}
+
+
+
+@media screen and (min-width:576px){
+ 
+
+
+}
+
+
+
+
+@media screen  and (min-width:992px){
+       
+
+}
+
+
+
+
+.arrow img{
+    display: flex;
+    width: 2.5rem;
+    margin: 1rem;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+/* image pokemon */
+
+.photo img {
+    display: block;
+    position: relative;
+    width: 10rem;
+    height: 9rem;
+    z-index: 1;
+    margin-top: 60px;
+}
+
+.poke_image {
+    display: flex;
+    width: 18rem;
+    height: 11rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 6px;
+    margin-right: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* BARRA DE PROGRESSO E ESTADO */
+
+progress {
+    background: #c7c7c7;
+    border-radius: 10px;
+    height: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #219ebc;
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: rgb(178, 178, 184);
+    background-color: transparent;
+  }
+  
+  .bar_stats{
+    margin-right: 10px;
+  }
+
+
+  
